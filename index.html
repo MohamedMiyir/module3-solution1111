@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>module 3</title>
+</head>
+<body>
+ <header>
+ 	<h1>Mero coffe</h1>
+ 	<div  class="menu">
+ 		<img id="menu-button" src="img/menudrop.png" class="i1">
+ 	</div>
+
+ </header>
+  <section class="b">
+  	<li a href="#" class="a">Football</li>
+  	<li a href="#" class="a">Swim</li>
+  	<li a href="#" class="a">Cricket</li>
+  </section>
+ <h1>Our Menu</h1>
+	<div class="contenir">
+		<div class="Box1">
+			<div class="a1">Football</div>
+			Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used. Sports commonly called football include association football (known as soccer in North America and Oceania); gridiron football (specifically American football or Canadian football) Australian rules football; rugby union and rugby league; and Gaelic football.
+		</div>
+		<div class="Box2">
+			<div class="a2">Swim</div>
+			Swimming is the self-propulsion of a person through water, or other liquid, usually for recreation, sport, exercise, or survival. Locomotion is achieved through coordinated movement of the limbs and the body to achieve hydrodynamic thrust which results in directional motion. Humans can hold their breath underwater and undertake rudimentary locomotive swimming within weeks of birth, as a survival response.[1]
+		</div>
+		<div class="Box3">
+			<div class="a3">Cricket</div>
+			Cricket is a bat-and-ball game played between two teams of eleven players each on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The game proceeds when a player on the fielding team, called the bowler, "bowls" (propels) the ball from one end of the pitch towards the wicket at the other end, with an "over" being completed once they have legally done so six times
+		</div>
+	</div>
+
+
+	<script>
+		let menuButton= document.querySelector('#menu-button'),
+    menu=document.querySelector('.b');
+
+menuButton.addEventListener('click',()=>{
+ menu.classList.toggle('show-menu')
+})
+	</script>
+</body>
+</html>

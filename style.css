@@ -1,0 +1,178 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #97ebdb;
+	width: 100%;
+	height:50px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+
+}
+img{
+	height: 45px;
+	width: 45px;
+	float: center;
+	justify-content: right;
+	float: right;
+	position: absolute;
+	right: 0;
+	border:2px solid black;
+	
+
+}
+.a {
+	background-color: #ff6289;
+	justify-content: center;
+	width: 100%;
+	height: 30px;
+	font-size: 24px;
+	border:2px solid black;
+
+}
+.b {
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+
+	
+}
+h1{
+	color:black;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+.contenir {
+	justify-content: center;
+	display: flex;
+	box-sizing: content-box;
+	overflow: auto;
+
+
+}
+.Box1, .Box2, .Box3 {
+	height: 200px;
+	width: 400px;
+	border: 3px solid black;
+	box-sizing: content-box;
+	position: relative;
+	font-family: Copperplate;
+	margin: 10px;
+
+
+
+
+
+}
+.a1{
+	margin: 0;
+	padding: 0;
+	background-color: green;
+	border: 2px solid black;
+	width: 55px;
+	float: right;
+	color: white;
+}
+.a2{
+	margin: 0;
+	padding: 0;
+	background-color: red;
+	border: 2px solid black;
+	width: 55px;
+	float: right;
+	color: white;
+}
+.a3{
+	margin: 0;
+	padding: 0;
+	background-color: maroon;
+	border: 2px solid black;
+	width: 55px;
+	float: right;
+	color: white;
+	}
+	.Box1 {
+	background-color: #80aaa7;
+}
+.Box2 {
+	background-color: #ff6289;
+}
+.Box3 {
+	background-color: #e8e8e8;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.contenir > .Box3 {
+	justify-content: right;
+	box-sizing: content-box;
+	overflow: auto;
+}
+.Box1, .Box2{
+	width: 450px;
+
+
+
+
+}
+.Box3{
+	width: 95%;
+	position: absolute;
+	clear: left;
+	float: left;
+	margin-top: 37vh;
+}
+.Box2{
+	float: right;
+}
+}
+
+@media (min-width: 767px) {
+	img{
+		display: none;
+	}
+	.b {
+		display:none;
+	}
+
+}
+@media (max-width: 767px){
+	.contenir > .Box3,.Box2 {
+	justify-content: right;
+	box-sizing: content-box;
+	overflow: auto;
+}
+.Box1{
+	width: 95%;
+
+
+
+
+}
+.Box3{
+	width: 95%;
+	position: absolute;
+	clear: left;
+	float: left;
+	margin-top: 74vh;
+}
+.Box2{
+
+	width: 95%;
+	position: absolute;
+	clear: left;
+	float: left;
+	margin-top: 37vh;
+}
+}
+
+.b{
+	display: none;
+}
+
+.show-menu{
+	display: block;
+}
